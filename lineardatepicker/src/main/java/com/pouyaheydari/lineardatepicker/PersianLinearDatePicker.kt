@@ -59,7 +59,7 @@ class PersianLinearDatePicker(context: Context, attr: AttributeSet?) : LinearLay
         setMonths()
         daysOfMonthFixer(defaultYear, defaultMonth, defaultDay)
         setOnDateChangedListener { _, _, _ -> }
-        changeShowingNumbersToPersian()
+      //  changeShowingNumbersToPersian()
         setDate(defaultYear, defaultMonth, defaultDay)
     }
 
